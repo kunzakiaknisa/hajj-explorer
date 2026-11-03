@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123B56"/>
+      <stop offset="50%" stop-color="#176B9B"/>
+      <stop offset="100%" stop-color="#258FBA"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4B942"/>
+      <stop offset="100%" stop-color="#E5A830"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Islamic Geometry / Circles -->
+  <circle cx="640" cy="360" r="300" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.1"/>
+  <circle cx="640" cy="360" r="220" fill="none" stroke="#F4B942" stroke-width="1.5" opacity="0.15" stroke-dasharray="8 6"/>
+  
+  <!-- Stylized Kaaba Center Illustration -->
+  <polygon points="640,240 730,290 640,340 550,290" fill="#2A6284"/>
+  <polygon points="550,290 640,340 640,460 550,405" fill="#123B56"/>
+  <polygon points="640,340 730,290 730,405 640,460" fill="#0A2233"/>
+  <polygon points="550,315 640,365 640,375 550,325" fill="url(#goldGrad)"/>
+  <polygon points="640,365 730,315 730,325 640,375" fill="url(#goldGrad)"/>
+  
+  <!-- Play Button Circle Overlay -->
+  <circle cx="640" cy="360" r="54" fill="#FFFFFF" opacity="0.9" filter="drop-shadow(0 4px 12px rgba(0,0,0,0.3))"/>
+  <polygon points="630,335 662,360 630,385" fill="#176B9B"/>
+  
+  <!-- Title Badge -->
+  <rect x="440" y="520" width="400" height="60" rx="30" fill="rgba(18, 59, 86, 0.75)" stroke="#F4B942" stroke-width="1.5"/>
+  <text x="640" y="558" fill="#FFFFFF" font-family="'Poppins', sans-serif" font-size="22" font-weight="600" text-anchor="middle">
+    Video Pembelajaran Manasik Haji
+  </text>
+  <text x="640" y="620" fill="#E8F5FA" font-family="'Poppins', sans-serif" font-size="16" opacity="0.8" text-anchor="middle">
+    Klik untuk Memutar Video Edukasi Interaktif
+  </text>
+</svg>
